@@ -1,10 +1,9 @@
-import React from 'react'
 
-type Props = {}
-
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <main className="h-[120vh]">
+        Dashboard
+    </main>
   )
 }
 

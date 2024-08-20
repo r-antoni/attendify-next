@@ -1,8 +1,12 @@
+"use client"
+import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
 import React from 'react'
 
 const Header = () => {
+    const {user} = useKindeBrowserClient()
+
   return (
-    <header className='flex justify-between items-center h-16 px-5 xl:px-10 border-2'>
+    <header className='flex justify-between items-center w-full h-16 border-2'>
         Header
     </header>
   )
